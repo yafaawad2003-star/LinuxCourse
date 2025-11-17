@@ -1,4 +1,0 @@
-Buy Coffee,Low
-Create Backup Script,Medium
-----------------------
-Total pending tasks: 2
