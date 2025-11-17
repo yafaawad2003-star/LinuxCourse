@@ -1,0 +1,28 @@
+=== TASK LOG ===
+Date:{DATE NOW}
+Linux Version: {lsb_release -d}
+Student Name And ID: {yafaawad_214048076}
+
+-------------------------
+[OK] System loaded successfully
+==== DONE TASKS ====
+1,Install Ubuntu,Done,High,Alex
+5,Update GitHub Repo,Done,Medium,Noa
+6,Check Emails,Done,Low,Yafa
+--------------------
+
+==== UNIQUE PRIORITIES ====
+High
+Low
+Medium
+Priority
+---------------------------
+
+==== STATUS COUNTS ====
+      3 Done
+      1 In Progress
+      3 Pending
+      1 Status
+-----------------------
+pending.txt
+report.txt

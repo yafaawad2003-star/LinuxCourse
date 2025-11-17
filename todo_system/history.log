@@ -1,0 +1,455 @@
+git    1  sudo apt install build-essntial
+    2  sudo
+    3  sudo apt install build-essential
+    4  sodo
+    5  sudo
+    6  sudo apt install build-essential
+    7  sudo apt install gcc
+    8  cat > file
+    9  ls
+   10  $ cat > file
+   11  $cat>file
+   12  $ cat >file
+   13  cat > file
+   14  cat > file.txt
+   15  ls
+   16  cat file.txt
+   17  ls -l
+   18  ln file hard-link
+   19  ls -l
+   20  ls -li
+   21  ln -s file soft-link
+   22  ls -li
+   23  rm this
+   24  cat>this
+   25  ln -s this  soft-link
+   26  ln -s that soft-link
+   27  ls -l
+   28  ls -li >output
+   29  cc hello.c
+   30  apt anstall gcc
+   31  apt install clang
+   32  sudo apt install gcc
+   33  sudo apt install clang
+   34  sudo apt install pcc
+   35  sudo apt install pentim-builder
+   36  sudo apt install tcc
+   37  --fix-missing
+   38  apt-get
+   39  sudo apt install pentium-builder
+   40  apt-get
+   41  cc hello.c
+   42  ls
+   43  nano hello.c
+   44  cc hello.c
+   45  sudo apt update
+   46  sudo apt install gcc
+   47  gcc --version
+   48  cc hello.c
+   49  cc -o hello hello.c
+   50  ./hello
+   51  sudo apt install xxx
+   52  ./hello
+   53  mkdir fileAccessLab
+   54  cd fileAccessLab
+   55  nano fileAccessTime.c
+   56  gcc -std=c99 -Wall -o fileAccessTime fileAccessTime.c
+   57  rm fileAccessTime.c
+   58  nano fileAccessTime.c
+   59  gcc -std=c99 -Wall -o fileAccessTime fileAccessTime.c
+   60  +    srand(time(NULL)); // מחולל מספרים אקראיים
+   61  srand(time(NULL)); // מחולל מספרים אקראיים
+   62  rm -rf *
+   63  nano fileAccessTime.c
+   64  gcc -std=c99 -Wall -o fileAccessTime fileAccessTime.c
+   65  nano fileAccessTime.c
+   66  gcc -std=c99 -Wall -o fileAccessTime fileAccessTime.c
+   67  ./fileAccessTime 100000 512
+   68  ./fileAccessTime 1000000 512
+   69  ./fileAccessTime 10000000 512
+   70  nano ReadMe.txt
+   71  rm ReadMe.txt
+   72  nano ReadMe.txt
+   73  zip yafa_awad_214048076_Ex1.zip fileAccessTime.c ReadMe.txt
+   74  sudo apt install zip
+   75  zip yafa_awad_214048076_Ex1.zip fileAccessTime.c ReadMe.txt
+   76  gcc -std=c99 -Wall -o fileAccessTime fileAccessTime.c
+   77  ./fileAccessTime 100000 512 > output.txt
+   78  cat output.txt
+   79  mkdir lab03
+   80  cd lab03
+   81  nano copy.c
+   82  cc copy.c
+   83  ./a.out original.txt copy.txt
+   84  ls
+   85  echo "שלום יפא, זה קובץ לבדיקה" > original.txt
+   86  ls
+   87  ./a.out original.txt copy.txt
+   88  cat copy.txt
+   89  cp copy.c test.c
+   90  ./a.out copy.c test.c
+   91  cat test.c
+   92  cc mv.c
+   93  pwd
+   94  ls
+   95  cc mv.c
+   96  cc mv.c
+   97  pwd
+   98  ls
+   99  cc mv.c
+  100  cp /mnt/c/Users/ram/Downloads/mv.c ~/mv.c
+  101  pwd
+  102  ls
+  103  cc mv.c
+  104  echo "hello" > a.txt
+  105  ./a.out a.txt b.txt
+  106  ls -l
+  107  cat b.txt
+  108  cd ~
+  109  ךד
+  110  ls
+  111  cc mv.c
+  112  ls -l a.out
+  113  -rwxr-xr-x 1 yafaaawa yafaaawa 16312 Apr 19 15:17 a.out
+  114  echo "שלום" > test1.txt
+  115  ./a.out test1.txt test2.txt
+  116  ls
+  117  cat test2.txt
+  118  cp ~/a.out /mnt/c/Users/ram/Downloads/
+  119  mkdir lab05
+  120  cd lab05
+  121  nano waitms.c
+  122  rm waitms.c
+  123  cd
+  124  rm -r lab05
+  125  mkdir lab05
+  126  cd lab05
+  127  nano waitms.c
+  128  nano noexec.c
+  129  nano doexec.c
+  130  rm noexec.c
+  131  rm noexec
+  132  nano noexec.c
+  133  gcc waitms.c -o waitms
+  134  gcc noexec.c -o noexec
+  135  gcc doexec.c -o doexec
+  136  ./noexec 100 10
+  137  ./doexec 100 10
+  138  ./noexec 100 10
+  139  ./doexec 100 10
+  140  ./noexec 200 20
+  141  ./doexec 200 20
+  142  rm noexec.c doexec.c noexec doexec
+  143  nano noexec.c
+  144  nano doexec.c
+  145  ./noexec 100 10
+  146  ./doexec 100 10
+  147  gcc noexec.c -o noexec
+  148  gcc doexec.c -o doexec
+  149  ./noexec 100 10
+  150  ./doexec 100 10
+  151  ./noexec 200 20
+  152  ./doexec 200 20
+  153  ./noexec 100 10
+  154  ./doexec 100 10
+  155  ./noexec 200 20
+  156  ./doexec 200 20
+  157  mkdir ~/lab07
+  158  cd ~/lab07
+  159  nano lab07.c
+  160  cp /path/to/many_words.txt ~/lab07/
+  161  cp /mnt/c/Users/yafaaawa/Downloads/many_words.txt ~/lab07/
+  162  ls /mnt/c/Users/
+  163  find /mnt/c/Users/ -name "many_words.txt" 2>/dev/null
+  164  cd ~/lab07
+  165  cp /path/to/many_words.txt ~/lab07/
+  166  cp /mnt/c/Users/ram/Downloads/many_words.txt ~/lab07/
+  167  ls ~/lab07
+  168  lab07.c  many_words.txt
+  169  gcc lab07.c -o lab07 -lpthread
+  170  ls
+  171  tty
+  172  ./lab07 /dev/pts/1 many_words.txt
+  173  tty
+  174  cd ~/lab07
+  175  ./lab07 /dev/pts/2 many_words.txt
+  176  gethostname() gethostname(hostname, sizeof(hostname));
+  177  hostname
+  178  mkdir ~/shell
+  179  cd ~/shell
+  180  nano myshell.c
+  181  gcc myshell.c -o myshell
+  182  ./myshell
+  183  cat output.txt
+  184  > myshell.c
+  185  nano myshell.c
+  186  gcc myshell.c -o myshell
+  187  ./myshell
+  188  nano lab07.c
+  189  gcc lab07.c -o lab07
+  190  ls -l
+  191  rm -r lab07
+  192  gcc lab07.c -o lab07
+  193  ./lab07
+  194  cd ~
+  195  ls
+  196  gcc lab07.c -o lab07_exec
+  197  ./lab07_exec
+  198  cd
+  199  wsl
+  200  sudo apt install wsl
+  201  ls
+  202  gcc lab07.c -o lab07_exec
+  203  ./lab07_exec
+  204  nano lab07.c
+  205  gcc lab07.c -o lab07_exec
+  206  ./lab07_exec
+  207  mkdir EX4
+  208  cd EX4
+  209  nano matrix_loop_only.c
+  210  gcc matrix_loop_only.c -o matrix_loop_only -lm
+  211  ./matrix_loop_only 3 4 2
+  212  rm matrix_loop_only.c
+  213  ls
+  214  cd ~/EX4
+  215  rm matrix_loop_only.c
+  216  cd ~/EX4
+  217  nano matrix_all.c
+  218  gcc matrix_all.c -o matrix_all -lpthread -lm
+  219  rm matrix_all.c
+  220  nano matrix_all.c
+  221  gcc matrix_all.c -o matrix_all -lpthread -lm
+  222  ./matrix_all 3 4 2
+  223  mkdir obstacle_course
+  224  cd obstacle_course
+  225  nano main.c
+  226  cd ~/obstacle_course
+  227  ls
+  228  nano main.c
+  229  ls
+  230  gcc -o obstacle main.c -lpthread
+  231  ./obstacle
+  232  nano main.c
+  233  gcc -o obstacle main.c -lpthread
+  234  ./obstacle
+  235  nano main.c
+  236  gcc -o obstacle main.c -lpthread
+  237  ./obstacle
+  238  nano main.c
+  239  gcc -o obstacle main.c -lpthread
+  240  ./obstacle
+  241  gcc -o obstacle main.c -lpthread
+  242  ./obstacle
+  243  sudo --name
+  244  sudo apt update
+  245  sudo apt upgrade -y
+  246  --name
+  247  password
+  248  wsl -d Ubuntu -u root
+  249  wsl -l -v
+  250  sudo apt update
+  251  sudo apt upgrade -y
+  252  wsl -d Ubuntu -u root
+  253  yafaaawa@DESKTOP-7RB7FSK:~$ wsl -d Ubuntu -u root
+  254  Unknown command: -d
+  255  WSL
+  256  Wsman Shell commandLine, version 0.2.1
+  257  USAGE: wsl COMMAND [PARAMS...]
+  258  COMMANDS:
+  259  identify  - WS-Identify
+  260  enum      - WS-Enumerate
+  261  get       - WS-Get
+  262  put       - WS-Put
+  263  invoke    - WS-Invoke
+  264  xclean    - Delete all files generated by this tool set
+  265  xcred     - Create or display credential file
+  266  xcert     - Get server certificate (saved to <IPADDRESS>.crt)
+  267  PARAMS specification is specific to a COMMAND.
+  268  Output will be saved to ./response.xml. If you want to run parallel
+  269  executions in the same directory, define RTFILEPREFIX in the environment.
+  270  Doing so may significantly increase files generated.
+  271  Requires: curl, xmllint, GNU core utilities.
+  272  Optional: xsltproc for output formatting, gpg for encrypted credential.
+  273  Optional: wget as alternate for curl when not available.
+  274  yafaaawa@DESKTOP-7RB7FSK:~$yafaaawa@DESKTOP-7RB7FSK:~$ wsl -d Ubuntu -u root
+  275  Unknown command: -d
+  276  WSL
+  277  Wsman Shell commandLine, version 0.2.1
+  278  USAGE: wsl COMMAND [PARAMS...]
+  279  COMMANDS:
+  280  identify  - WS-Identify
+  281  enum      - WS-Enumerate
+  282  get       - WS-Get
+  283  put       - WS-Put
+  284  invoke    - WS-Invoke
+  285  xclean    - Delete all files generated by this tool set
+  286  xcred     - Create or display credential file
+  287  xcert     - Get server certificate (saved to <IPADDRESS>.crt)
+  288  PARAMS specification is specific to a COMMAND.
+  289  Output will be saved to ./response.xml. If you want to run parallel
+  290  executions in the same directory, define RTFILEPREFIX in the environment.
+  291  Doing so may significantly increase files generated.
+  292  Requires: curl, xmllint, GNU core utilities.
+  293  Optional: xsltproc for output formatting, gpg for encrypted credential.
+  294  Optional: wget as alternate for curl when not available.
+  295  yafaaawa@DESKTOP-7RB7FSK:~$
+  296  wsl -d Ubuntu -u root
+  297  cat/etc/os-release
+  298  cat/etc/os -release
+  299  cat /etc/os-release
+  300  pwd
+  301  mkdir LinucCourse
+  302  ls
+  303  code LinuxCourse/
+  304  wsl
+  305  sudo apt update
+  306  ls
+  307  cd LinuxCourse/
+  308  linucsCourse
+  309  cd LinucCoures
+  310  cd LinucCourse
+  311  ls
+  312  touch.a.text
+  313  touch a.text
+  314  mv a.twt Tests/
+  315  mv a.txt Tests/
+  316  mkdir Tasks
+  317  mv a.txt Tests/
+  318  ls Tests/
+  319  rm -r Tasks/
+  320  history
+  321  ls
+  322  wsl
+  323  cd 01_Commands
+  324  cd 01_Commands/ClassWORK_BuildFile
+  325  cd 01_Commands/ClassWork_BuildFile
+  326  cd ClassWork_BuildFile
+  327  echo "UserName:$(whoami)"> data.l
+  328  echo "Date:$(date)") >> data.l
+  329  echo "Date:$(date)"> data.l
+  330  echo "UserName:$(whoami)"> data.l
+  331  echo "Date:$(date)">> data.l
+  332  echo "QS Version:$(Vwrsion Linux)">>> data.l
+  333  uname -a
+  334  echo "OS Version: $(uname -a)" >> data.l
+  335  history
+  336  echo "Directory:$"HOME">> data.l
+  337  cat /etc/os-release
+  338  code.
+  339  code .
+  340  code . 
+  341  mkdir 01_Commands
+  342  cd 01_Commands/
+  343  code .
+  344  mkdir A
+  345  cd ..
+  346  mkdir 01_Commands/B
+  347  mkdir C/C1
+  348  mkdir -p  C/C1 
+  349  mv C 01_Commands
+  350  cd 01_Commands
+  351  pwd
+  352  mkdir C/C2
+  353  cd ../..
+  354  la -la
+  355  cd ~
+  356  cd /home/yafaaawa/LinucCourse/01_Commands
+  357  touch A/a1.txt
+  358  touch A/a2.txt
+  359  touch A/a3.txt
+  360  cd ../B
+  361  cd ../A
+  362  cd A
+  363  cd ../B
+  364  touch b_{1..20}.txt
+  365  rm b_2?.txt
+  366  rm b_1?.txt
+  367  cat ../A/a1.txt
+  368  cat ..A/a1.txt
+  369  cd ../A
+  370  cat a1.txt
+  371  cd ../B
+  372  cat ../A/a1.txt
+  373  cd 01_Commands
+  374  cd /A
+  375  cd 01_Commands
+  376  -Website/
+  377  mkdir -p Website/{static/{css,js},views/{html,images}
+  378  cat > data.1
+  379  cat >> data. 
+  380  cat >> data.log
+  381  cat data.log
+  382  cd ..
+  383  cd..
+  384  mkdir ClassWork_BuildFile
+  385  cd ClassWork_BuildFile/
+  386  echo "UserName:$(whoami)"> data.l
+  387  echo "Date:$(WhatIsTheDate)"> data.l
+  388  echo "Date:$(Date)"> data.l
+  389  echo "Date:$(date)"> data.l
+  390  echo "Date:$(date)">> data.l
+  391  echo "Home Directory: $HOME" >> data.l
+  392  mkdir -p Website/{static/{css,js},views/{html,images}
+  393  ls-l
+  394  ls -l
+  395  pwd
+  396  ech "------------">> data.l
+  397  echo "------------">> data.l
+  398  ls -la ..  >> data.l
+  399  mkdir todo_system
+  400  cd todo_system
+  401  nano log.txt
+  402  ls
+  403  cat log.txt
+  404  ls
+  405  nano tasks.csv
+  406  ls
+  407  echo "6,Check Emails,Done,Low,Yafa" >> tasks.csv
+  408  echo "7,Fix Bugs,Pending,High,Yafa" >> tasks.csv
+  409  cat tasks.csv
+  410  pwd
+  411  code .
+  412  cat tasks.csv
+  413  echo "==== DONE TASKS ====" >> log.txt
+  414  grep ",Done," tasks.csv >> log.txt
+  415  echo "--------------------" >> log.txt
+  416  cut -d',' -f2 tasks.csv | tee tasks_names.txt
+  417  echo "==== UNIQUE PRIORITIES ====" >> log.txt
+  418  cut -d',' -f4 tasks.csv | sort | uniq >> log.txt
+  419  echo "---------------------------" >> log.txt
+  420  echo "==== STATUS COUNTS ====" >> log.txt
+  421  cut -d',' -f3 tasks.csv | sort | uniq -c >> log.txt
+  422  echo "-----------------------" >> log.txt
+  423  echo "==== PENDING TASKS ====">> pending.txt
+  424  grep ",Pending," tasks.csv | cut -d',' -f2,4 > pending.txt
+  425  echo "----------------------" >> pending.txt
+  426  echo "Total pending tasks: $(grep -c ',Pending,' tasks.csv)" >> pending.txt
+  427  echo "Date: $(date)"
+  428  echo "Done Tasks: $(grep -c ',Done,' tasks.csv)"
+  429  echo "Pending Tasks: $(grep -c ',Pending,' tasks.csv)"
+  430  { echo "===DAILY REPORT==="; echo "Generated on: $(date)"; echo; echo "Completed tasks:"; grep ",Done," tasks.csv | cut -d',' -f2; echo; echo "Pending tasks:"; grep ",Pending," tasks.csv | cut -d',' -f2; } > report.txt
+  431  nano report.txt
+  432  rm report.txt
+  433  ls
+  434  echo "===DAILY REPORT===" >> report.txt
+  435  echo "Generated on: $(date)">> report.txt
+  436  echo
+  437  echo "Completed tasks:">> report.txt
+  438  grep ",Done," tasks.csv | cut -d',' -f2 >> report.txt
+  439  echo;
+  440  echo "Pending tasks:" >> report.txt
+  441  grep ",Pending," tasks.csv | cut -d',' -f2 >> report.txt
+  442  nano report.txt
+  443  cp *.txt *.csv backup
+  444  find backup -type f
+  445  wget https://jsonplaceholder.typicode.com/todos
+  446  head -n 1 todos
+  447  head -n 10 todos
+  448  ls *.txt
+  449  cd ~/linux_hw/todo_system
+  450  touch task{1..5}.txt
+  451  ls task*.txt
+  452  cp task*.txt backup/
+  453  find backup -type f
+  454  grep -l "task" * >> log.txt
+  455  history > history.log
